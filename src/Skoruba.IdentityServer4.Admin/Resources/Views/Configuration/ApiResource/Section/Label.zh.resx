@@ -136,10 +136,28 @@
     <value>启用</value>
   </data>
   <data name="Name_Info" xml:space="preserve">
-    <value>API 的唯一名称。 此值用于内省身份验证，并将添加到传出访问令牌的受众。</value>
+    <value>API 的唯一名称。 此值用于自我认证，并将添加到传给受众的访问令牌 access_token 中。</value>
   </data>
   <data name="Name_Label" xml:space="preserve">
     <value>名称</value>
+  </data>
+  <data name="Properties_Info" xml:space="preserve">
+    <value>需要保留任何自定义 Api 资源特定值的字典。</value>
+  </data>
+  <data name="Properties_Label" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="PropertyKey_Info" xml:space="preserve">
+    <value>键</value>
+  </data>
+  <data name="PropertyKey_Label" xml:space="preserve">
+    <value>键</value>
+  </data>
+  <data name="PropertyValue_Info" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="PropertyValue_Label" xml:space="preserve">
+    <value>值</value>
   </data>
   <data name="Scopes_Info" xml:space="preserve">
     <value>API 必须至少有一个作用域。 每个作用域可以有不同的设置。</value>

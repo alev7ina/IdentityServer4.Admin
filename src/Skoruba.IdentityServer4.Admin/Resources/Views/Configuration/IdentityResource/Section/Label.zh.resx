@@ -147,6 +147,24 @@
   <data name="Name_Label" xml:space="preserve">
     <value>名称</value>
   </data>
+  <data name="Properties_Info" xml:space="preserve">
+    <value>需要保留任何自定义身份资源特定值的字典。</value>
+  </data>
+  <data name="Properties_Label" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="PropertyKey_Info" xml:space="preserve">
+    <value>键</value>
+  </data>
+  <data name="PropertyKey_Label" xml:space="preserve">
+    <value>键</value>
+  </data>
+  <data name="PropertyValue_Info" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="PropertyValue_Label" xml:space="preserve">
+    <value>值</value>
+  </data>
   <data name="Required_Info" xml:space="preserve">
     <value>指定用户是否可以在同意屏幕上取消选择作用域（如果同意屏幕要实现此类功能）。 默认为 false。</value>
   </data>
@@ -160,7 +178,7 @@
     <value>在发现文档中显示</value>
   </data>
   <data name="UserClaims_Info" xml:space="preserve">
-    <value>应包含在身份令牌中的关联用户声明类型的列表。</value>
+    <value>应包含在身份令牌 id_token 中的关联用户声明类型的列表。</value>
   </data>
   <data name="UserClaims_Label" xml:space="preserve">
     <value>用户声明</value>
